@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="survey.css">
+
+</head>
+
+
+<body>
+<div class="main">
+        <h1 id="title">Welcome to the best freerider's in the world championship.</h1>
+        <p id="description"> This is the survey form of championship registration.</p>
+        <form id="survey-form">
+            <div class="main-content">
+           <label id="name-label">Name:</label>
+            <input type="text" name="name" id="name" required placeholder="First Name"><br>
+
+            <label id="email-label">Email:</label>
+           <input type="email" name="name" id="email" required placeholder="Email"><br>
+
+           <label id="number-label">Age:</label>
+            <input type="number" name="name" id="number" min="0" max="10" required placeholder="Age">
+
+
+            <br>
+            <label id="equipment-label">Equipment:</label>
+            <select id="dropdown" name="Ski/Board">
+            <option value="ski">Ski</option>
+            <option value="saab">Board</option>
+            </select>
+            <br>
+            <br>
+            <label id="gender-label">Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <br>
+            <br>
+            <br>
+            <label id="ski-lvl-label">Ski LVL:</label>
+            <input type="checkbox" name="Lvl" value="Intermediate">Intermediate
+            <input type="checkbox" name="Lvl" value="Pro">Pro
+            <br>
+            <br>
+            <br>
+            <br>
+            <label id="Additional Comments">Additional Comments:</label><br>
+            <textarea placeholder="Additional Comments"></textarea><br>
+            <input type="Submit" id="submit">
+        </div>
+    </div>
+        </form>
+            <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+            </body>
+</html>
